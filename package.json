@@ -1,0 +1,21 @@
+{
+  "name": "post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "fulltable": "node fullTable.js",
+    "start": "nodemon Controller/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "nodemon": "^2.0.2",
+    "pg": "^7.17.1"
+  }
+}
